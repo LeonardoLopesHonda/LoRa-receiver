@@ -1,4 +1,3 @@
-#include <Arduino.h>
 #include <LoRa.h>
 #include <WiFi.h>
 #include <HTTPClient.h>
@@ -22,10 +21,10 @@
 #define RECEIVER_LON    -46.123456
 
 // ─── WIFI + JSONBIN ───────────────────────────────────────────────
-#define WIFI_SSID       "your_ssid"
-#define WIFI_PASSWORD   "your_password"
-#define JSONBIN_BIN_ID  "your_bin_id"
-#define JSONBIN_API_KEY "your_api_key"
+#define WIFI_SSID       "HondaFamily2"
+#define WIFI_PASSWORD   "Heitor@2024"
+#define JSONBIN_BIN_ID  "69c4b2d7aa77b81da91e2170"
+#define JSONBIN_API_KEY "$2a$10$qmf907B.PdCsugKTfIxcZOZ4rqc87QeuSooOcr9y14gPQJ1.ZA9PS"
 #define JSONBIN_URL     "https://api.jsonbin.io/v3/b/" JSONBIN_BIN_ID
 
 // ─── SETUP ───────────────────────────────────────────────────────
